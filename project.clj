@@ -1,4 +1,4 @@
-(defproject fakeflix-schema "1.0.0"
+(defproject org.clojars.pedroso/fakeflix-schema "1.0.0"
   :description "Fakeflix Schema library"
   :url "https://pedroteles.dev"
   :license {:name "EPL-2.0 OR GPL-2.0-or-later WITH Classpath-exception-2.0"
