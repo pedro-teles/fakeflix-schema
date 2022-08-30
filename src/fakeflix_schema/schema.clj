@@ -1,6 +1,10 @@
 (ns fakeflix-schema.schema
   (:require [schema.core :as s]))
 
+(def FloatNum
+  "A float"
+  (schema.core/pred float? 'float?))
+
 (s/defn keyword-skeleton->keyword-schema
   [skeleton :- [s/Any]]
   (let [keyword (first skeleton)
